@@ -89,19 +89,42 @@ h2 {
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 150px 200px;
+    background-color: #E5E7EB;
+    flex-direction: column;
 }
 
 .quote {
-    background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
 }
 
+.author {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 20px;
+}
+
 .container-4 {
     display: flex;
-    justify-content: space-between;
     background-color: #3882F6;
+    flex-direction: column;
+    padding: 50px 200px;
+    margin: 100px 50px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.sign-up-bar {
+    display: flex;
+    color: #E5E7EB;
+}
+
+.sign-up-bar-description {
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
 }
 
 
